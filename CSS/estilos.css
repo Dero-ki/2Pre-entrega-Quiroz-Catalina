@@ -1,0 +1,220 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Body */
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+}
+/* Header */
+header{
+    border-bottom:  1px solid rgb(70, 70, 70);
+    text-align: center;
+    padding: 50px 35px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    float: right;
+}
+.Logo{
+    float: left;
+    width: 250px;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-45%);
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+}
+/* MAIN */
+imgBanner1{
+margin: 0;
+padding: 0;
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+main{
+    margin: 20px;
+    padding: 20px;    
+}
+/* formularios */
+.contacto{
+    margin: 20px;
+    text-align: center;
+}
+.contacto h3 {
+    font-size: 16px;
+}
+.contacto label {
+    font-size: 20px;
+}
+
+.contacto input[type="text"],
+.contacto input[type="Correo"],
+.contacto input[type="Tel"],
+.contacto input[type="motivo"],
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.contacto input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7ba8d3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contacto input[type="submit"]:hover {
+    background-color: #363e86;
+}
+
+/* formularios */
+.Mapa{
+    text-align: center;
+}
+
+/* Card Productos */
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-title {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #333;
+}
+
+.descripciondeproducto {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.producto-precio {
+    margin: 0;
+    font-size: 20px;
+    color: #ff0037;
+    font-weight: bold;
+}
+.precio-anterior{
+    margin: 0;
+    font-size:10px ;
+    text-decoration: line-through;
+    color: #6d6d6d;
+}
+.contenedor-imagenes-galery {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.contenedor-imagenes-galery img {
+    width: 220px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contenedor-imagenes-inicio{
+    padding-top: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+
+}
+.contenedor-imagenes-inicio img{
+    width: 220px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.034);
+}
+/* -----------------------------------------FOOTER --------------------------------------*/
+footer {
+    background-color: #c9c9c9;
+    height: 150px;
+    color: rgb(27, 27, 27);
+}
+.container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    
+
+}
+.logo img{
+    padding-left: 20px;
+    padding-top: 30px;
+        width: 170px;
+}
+.redes-sociales {
+    display: flex;
+}
+.social-link {
+    padding-top: 40px;
+    margin-right: 20px;
+}
+.Copyright{
+    border: 2px solid rgb(197, 197, 197);
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* -------------------------------------------FOOTER---------------------------------- */
+
