@@ -6,13 +6,13 @@
     font-weight: 400;
     font-style: normal;
 }
-/* Body */
+/* ----------------------------Body------------------------ */
 body {
     background-color: #f7f7f7;
     margin: 0;
 }
-/* Header */
-header{
+/* ----------------------------Header-------------------- */
+.encabezado {
     border-bottom:  1px solid rgb(70, 70, 70);
     text-align: center;
     padding: 50px 35px;
@@ -23,26 +23,29 @@ nav ul li{
     list-style: none;
     margin: 0 10px;
     display: inline-block;
-    float: right;
+    text-align: right;
 }
 .Logo{
     float: left;
     width: 250px;
     transform: translateX(-50%);
-    top: 50%;
-    transform: translateY(-45%);
+    top: 55%;
+    transform: translateY(-10%);
 }
-a{
+nav a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     color: #333;
 }
-/* MAIN */
-imgBanner1{
-margin: 0;
+
+/* ---------Banner y Carrousel---------- */
+.bannercontenido{
+margin: 0px;
 padding: 0;
 }
+
+/* --------Main ----------- */
 h1{
     text-align: center;
     text-decoration: none;
@@ -56,7 +59,7 @@ main{
     margin: 20px;
     padding: 20px;    
 }
-/* formularios */
+/* ---------------formularios --------------------*/
 .contacto{
     margin: 20px;
     text-align: center;
@@ -93,12 +96,12 @@ main{
     background-color: #363e86;
 }
 
-/* formularios */
-.Mapa{
+/* ------------------Mapa -------------------*/
+.Mapa container{
     text-align: center;
 }
 
-/* Card Productos */
+/* ----------------------Card Productos --------------------------*/
 .card-container{
     display: flex;
     justify-content: space-around;
@@ -188,7 +191,7 @@ footer {
     height: 150px;
     color: rgb(27, 27, 27);
 }
-.container{
+.Footercontainer{
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
@@ -198,7 +201,7 @@ footer {
 }
 .logo img{
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 40px;
         width: 170px;
 }
 .redes-sociales {
@@ -216,5 +219,40 @@ footer {
     text-align: center;
 }
 
-/* -------------------------------------------FOOTER---------------------------------- */
+/* -----------------------Responsive-------------------- */
 
+/* Tablet 768px hasta 1023 */
+@media (max-width:1023px){
+
+    /* Header */
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* INDEX - INICIO */
+    /* Banner */
+    .bannercontenido{
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    /* contenedor-inicio */
+    .contenedor-ofertas-inicio{
+        margin: 5vh;
+        font-size: inherit;
+    }
+    .contenedor-imagenes-inicio{
+        margin: 5vh;
+        
+        grid-template-columns: 1fr 1fr;
+    }
+    /* Footer */
+    
+    /* PÁGINA DE OFERTAS */
+    .contenedor-ofertas h1 {
+        margin: 5vh;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+}
